@@ -43,6 +43,10 @@ page 50109 "Country List"
                 ApplicationArea = All;
                 Caption = 'Add Country';
                 Image = Add;
+                Promoted = true;
+                PromotedCategory = Process;
+                PromotedIsBig = true;
+                PromotedOnly = true;
 
                 trigger OnAction()
                 begin

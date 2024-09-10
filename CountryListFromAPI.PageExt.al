@@ -39,6 +39,7 @@ pageextension 50121 "CountryListFromAPI" extends "Country List"
                         array.ReadFrom(response);
 
                         foreach token in array do begin
+
                             object := token.AsObject();
 
                             object.Get('name', tokenName);
